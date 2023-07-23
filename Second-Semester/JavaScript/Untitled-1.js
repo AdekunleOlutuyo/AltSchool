@@ -93,4 +93,10 @@ const {address: {city}} = person;
 
 console.log(city);
 
+person.email = `tuyo@gmail.com`;
+
+console.log(person);
+
+
+
 

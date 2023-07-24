@@ -77,10 +77,13 @@ const person = {
   }
 }
 
+// print details in variable "person"
 console.log(person);
 
+// targeting specific details
 console.log(person.firstName, person.lastName);
 
+// more specific targeting using indexof
 console.log(person.hobbies[1]);
 
 console.log(person.address.city);

@@ -101,5 +101,68 @@ person.email = `tuyo@gmail.com`;
 console.log(person);
 
 
+// Arrays
+
+const todos = [
+  {
+    id: 1,
+    text: 'Take out trash',
+    isCompleted: false
+  },
+  {
+    id: 2,
+    text: 'Grocery Shopping',
+    isCompleted: true
+  },
+  {
+    id: 3,
+    text: 'Talk to bae',
+    isCompleted: true
+  },
+];
+
+console.log(todos)
+
+console.log(todos[1].text)
+
+//  Convert arrays to JSON
+//  This is how you send data to servers
+
+
+const todoJSON = JSON.stringify(todos);
+
+console.log(todoJSON);
+
+// For Loops
+
+for(let i =0; i <= 10; i++) {
+  console.log(`For loop number ${i}`);
+}
+
+// While loops
+
+let i = 0
+while(i < 10) {
+  console.log(`While loop number ${i}`);
+  i++;
+}
+
+// Loop through Arrays
+
+for(let i =0; i < todos.length; i++) {
+  console.log(todos[i].text);
+}
+
+// for of loop
+
+for(let todo of todos) {
+  console.log(todo.text);
+}
+
+
+
+
+
+
 
 

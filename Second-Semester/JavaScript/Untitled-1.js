@@ -161,11 +161,29 @@ for(let todo of todos) {
 
 
 // String Methods
+//  Every sting has a set of specific methods
 
+let message = "leave me alone right now, i hate you pls";
 
+message.toUpperCase();
 
+console.log(message.toUpperCase());
 
+message = "        i hate you         ";
 
+console.log(message.trim().toUpperCase());
+
+//  Stings Methods wtih arguments
+
+let max = 'dont you go there any more';
+
+console.log(max.indexOf('n'));
+
+//  slice is is going extract a portion of a string and then give it to us as a new string
+
+let text = "Will you be coming tomorrow?";
+
+console.log(text.slice(12));
 
 
 

@@ -185,5 +185,15 @@ let text = "Will you be coming tomorrow?";
 
 console.log(text.slice(12));
 
+let newText = "haha";
 
+console.log(newText.repeat(50));
+
+
+// Template Literals; these allows us to embed expressions which will be evaluated and then turned into a resulting stirng.
+//  We use backticks `` not regukar quotes ''
+
+let myAge = `hello ${20 + 10}`;
+
+console.log(myAge);
 

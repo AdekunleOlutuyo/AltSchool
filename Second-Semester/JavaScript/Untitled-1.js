@@ -197,3 +197,29 @@ let myAge = `hello ${20 + 10}`;
 
 console.log(myAge);
 
+//  Decision Making
+
+// Boolean Logic
+
+let hisAge = 30;
+
+console.log(hisAge >= 18);
+
+//  Conditionals
+
+//  if statementa
+
+if (1 + 1 === 2){
+  console.log("MATH STILL WORKS")
+}
+
+//  Else-if
+
+const rent = Math.random()*(1000000 - 200000) + 200000;
+
+if (rent <= 500000){
+  console.log('Get Apartment')
+} else if ( rent > 500000) {
+  console.log('Keep Searching')
+}
+

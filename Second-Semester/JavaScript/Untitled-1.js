@@ -135,7 +135,7 @@ console.log(todoJSON);
 
 // For Loops
 
-for(let i =0; i <= 10; i++) {
+for(let i = 0; i <= 10; i++) {
   console.log(`For loop number ${i}`);
 }
 
@@ -146,6 +146,10 @@ while(i < 10) {
   console.log(`While loop number ${i}`);
   i++;
 }
+
+// Do.....While Loop
+
+
 
 // Loop through Arrays
 
@@ -205,15 +209,15 @@ let hisAge = 30;
 
 console.log(hisAge >= 18);
 
-//  Conditionals
+//  CONDITIONALS
 
-//  if statementa
+//  if statement
 
 if (1 + 1 === 2){
   console.log("MATH STILL WORKS")
 }
-
-//  Else-if
+ 
+//  Else-if Statements
 
 const rent = Math.random()*(1000000 - 200000) + 200000;
 
@@ -222,4 +226,86 @@ if (rent <= 500000){
 } else if ( rent > 500000) {
   console.log('Keep Searching')
 }
+
+//  Else statements; this is going to be the last thing if nothing else matches your conditionals
+
+let today = prompt("Enter the day")
+if (today == "monday") {
+  alert ("Today is Monday")
+} else {
+  alert("Today is not Monday")
+}
+
+//  Conditional Operator Tenary operator(operates on three values) "?"
+
+let canVote = (age > 18) ? true : false
+
+console.log(canVote)
+
+//  Nested Conditionals
+
+
+
+//  Switch Statements
+
+const day = 1;
+
+switch (day) {
+  case 1:
+    console.log("Today na Monday")
+    break;
+  case 2:
+    console.log("Today na Tuesday")
+    break;
+  case 3:
+    console.log("Today na Wednesday")
+    break;
+  case 4:
+    console.log("Today na Thursday")
+    break;
+  case 5:
+    console.log("Today na Friday")
+    break;
+}
+
+
+
+// Logical Operators
+
+// true && true ---- true
+
+// true && false ---- false
+
+// false && false ---- false
+
+// false && true ---- false 
+
+// Logical AND &&; Both sides must be true for the entire thing to be true
+
+const password = prompt("Enter your password");
+
+if (password.length >= 6 && password.indexOf(' ') === -1) {
+  console.log ("Valid Password") 
+  } else {
+    console.log ("Invalid format")
+  }
+
+//  Logical OR || only one needs to be true
+
+
+
+// Logical NOT; this negates whatever statement you set
+
+
+
+
+
+
+
+
+
+
+
+
+
 

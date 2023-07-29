@@ -139,6 +139,14 @@ for(let i = 0; i <= 10; i++) {
   console.log(`For loop number ${i}`);
 }
 
+// For...Of Loop
+
+const iterable = (10, 20, 30)
+
+for (const value of iterable) {
+  console.log(value)
+}
+
 // While loops
 
 let i = 0
@@ -289,12 +297,6 @@ if (password.length >= 6 && password.indexOf(' ') === -1) {
   } else {
     console.log ("Invalid format")
   }
-
-//  Logical OR || only one needs to be true
-
-
-
-// Logical NOT; this negates whatever statement you set
 
 
 

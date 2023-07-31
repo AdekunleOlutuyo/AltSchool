@@ -46,3 +46,37 @@ function performMathOperation(number1, number2, operationType) {
 
 const timesResult = performMathOperation(2, 30, "times")
 console.log(timesResult)
+
+
+//  Function Expressions
+
+const sayHello = function(){
+  alert("Hello World")
+}
+
+
+// Call back Functions
+
+function displayRealtor(displayType, showFullName, showId) {
+  if (displayType == "full") {
+    showFullName()
+  } else {
+    showId()
+  }
+}
+
+function showFullName() {
+  alert("Adekunle Olutuyo")
+}
+
+function showId() {
+  alert("REMS02444")
+}
+
+displayRealtor("dwn", showFullName, showId)
+
+// Arrow Functions
+
+let sum = (a, b) => a + b;
+
+sum()
